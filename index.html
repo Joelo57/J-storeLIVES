@@ -185,7 +185,7 @@
 
       lista.innerHTML = partidos.length
         ? partidos.map(tarjeta).join("")
-        : '<div class="msg">No hay partidos en vivo de tus equipos en este momento.</div>';
+        : '<div class="msg">No hay eventos destacados en este momento.</div>';
       actualizado.textContent = "Actualizado a las " +
         new Date().toLocaleTimeString("es", { hour: "2-digit", minute: "2-digit", second: "2-digit" });
     } catch (e) {
